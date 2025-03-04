@@ -57,6 +57,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define RGB_B_Pin GPIO_PIN_0
+#define RGB_B_GPIO_Port GPIOA
+#define RGB_R_Pin GPIO_PIN_1
+#define RGB_R_GPIO_Port GPIOA
+#define RGB_G_Pin GPIO_PIN_2
+#define RGB_G_GPIO_Port GPIOA
+#define BUZZ_Pin GPIO_PIN_3
+#define BUZZ_GPIO_Port GPIOA
+#define POWER_CTRL_Pin GPIO_PIN_15
+#define POWER_CTRL_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
