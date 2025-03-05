@@ -36,12 +36,10 @@ power_stm32g474\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp.
 power_stm32g474\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_opamp_ex.h
 power_stm32g474\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 power_stm32g474\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
-power_stm32g474\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
-power_stm32g474\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
 power_stm32g474\main.o: ../Core/Inc/adc.h
 power_stm32g474\main.o: ../Core/Inc/fdcan.h
 power_stm32g474\main.o: ../Core/Inc/fmac.h
 power_stm32g474\main.o: ../Core/Inc/hrtim.h
 power_stm32g474\main.o: ../Core/Inc/opamp.h
-power_stm32g474\main.o: ../Core/Inc/usart.h
 power_stm32g474\main.o: ../Core/Inc/gpio.h
+power_stm32g474\main.o: ../Core/Inc/bsp_fdcan.h

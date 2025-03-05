@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp.sp
 "power_stm32g474\startup_stm32g474xx.o"
+"power_stm32g474\bsp_fdcan.o"
 "power_stm32g474\main.o"
 "power_stm32g474\gpio.o"
 "power_stm32g474\adc.o"
@@ -7,7 +8,6 @@
 "power_stm32g474\fmac.o"
 "power_stm32g474\hrtim.o"
 "power_stm32g474\opamp.o"
-"power_stm32g474\usart.o"
 "power_stm32g474\stm32g4xx_it.o"
 "power_stm32g474\stm32g4xx_hal_msp.o"
 "power_stm32g474\stm32g4xx_hal_adc.o"
@@ -33,8 +33,6 @@
 "power_stm32g474\stm32g4xx_hal_opamp_ex.o"
 "power_stm32g474\stm32g4xx_hal_tim.o"
 "power_stm32g474\stm32g4xx_hal_tim_ex.o"
-"power_stm32g474\stm32g4xx_hal_uart.o"
-"power_stm32g474\stm32g4xx_hal_uart_ex.o"
 "power_stm32g474\system_stm32g4xx.o"
 --strict --scatter "POWER_STM32G474\POWER_STM32G474.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
